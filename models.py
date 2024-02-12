@@ -19,8 +19,7 @@ class User(db.Model):
                    autoincrement=True)
     first_name = db.Column(db.String(50),
                      nullable=False,
-                     unique=True,
-                     default=50)
+                     unique=True)
     last_name = db.Column(db.String(50),
                      nullable=False,
                      unique=True)
